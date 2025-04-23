@@ -76,10 +76,9 @@ const char Language_English[]="English";
 const char Language_Spanish[]="Espa\xA4ol";
 const char Language_Portuguese[]="Portugu\x88s";
 const char Language_French[]="Fran\x87" "ais";
-const char *Phrases[3][4]={
-  {Hello_English,Hello_Spanish,Hello_Portuguese,Hello_French},
-  {Goodbye_English,Goodbye_Spanish,Goodbye_Portuguese,Goodbye_French},
-  {Language_English,Language_Spanish,Language_Portuguese,Language_French}
+const char *Phrases[2][9]={
+  {"SELECT Team","UT(Left)","A&M(Right)","Selected Team is on","offense","running into each", "other is a tackle","first to 3 wins","click either button","to start"},
+  {"SELECCIONA Equipo","UT(Izquierda)","A&M(Derecha)","El equipo seleccionado está en","ofensiva","chocar entre sí es una tacleada","el primero en llegar a 3 gana","presiona cualquier botón","para comenzar"}
 };
 // use main1 to observe special characters
 int main(void){ // main1
